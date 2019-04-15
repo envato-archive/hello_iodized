@@ -2,6 +2,5 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
 gem "sinatra"
+gem "iodized2_ruby_client", github: "envato/iodized2_ruby_client"
