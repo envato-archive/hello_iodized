@@ -1,2 +1,2 @@
-require_relative "lib/hello"
+require_relative "hello"
 run Sinatra::Application

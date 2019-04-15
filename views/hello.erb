@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>New Iodized Feature!</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <% if awesome_feature %>
+          <h1 class="display-1 text-primary">New feature LAUNCHED!</h1>
+          <div class="text-center">
+            <img src="rocketlab.gif">
+          </div>
+        <% else -%>
+          <h1 class="display-4">Coming Soon!</h1>
+          <p class="lead">It's not ready yet, but it will be awesome!</p>
+        <% end %>
+      </div>
+    </div>
+  </body>
+</html>
