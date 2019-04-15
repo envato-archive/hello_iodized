@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/envato/iodized2_ruby_client.git
+  revision: d5d11e2531686cc1059ecbfcca3da5183c270a31
+  branch: master
+  specs:
+    iodized2_ruby_client (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -16,6 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  iodized2_ruby_client!
   sinatra
 
 BUNDLED WITH
