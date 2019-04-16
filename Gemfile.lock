@@ -1,7 +1,5 @@
-GIT
-  remote: git://github.com/envato/iodized2_ruby_client.git
-  revision: 71f5fcb24fc5ad77a1c849a4eb0d71fa913d57a5
-  branch: master
+PATH
+  remote: ../iodized2_ruby_client
   specs:
     iodized2_ruby_client (0.1.0)
 
