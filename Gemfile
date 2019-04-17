@@ -3,5 +3,4 @@
 source "https://rubygems.org"
 
 gem "sinatra"
-# gem "iodized2_ruby_client", github: "envato/iodized2_ruby_client", branch: "master"
-gem "iodized2_ruby_client", path: "../iodized2_ruby_client"
+gem "iodized2_ruby_client", git: "https://github.com/envato/iodized2_ruby_client", branch: "implement-websocket"
