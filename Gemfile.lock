@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/envato/iodized2_ruby_client
-  revision: c6adef9c7a8d1f891acbcefd58ef25cb4e1981ee
-  branch: implement-websocket
+  revision: 71f5fcb24fc5ad77a1c849a4eb0d71fa913d57a5
+  branch: master
   specs:
     iodized2_ruby_client (0.1.0)
       websocket-driver
