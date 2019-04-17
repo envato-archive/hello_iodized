@@ -1,0 +1,21 @@
+<h1>Features<h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Active?</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% features.each do |feature| %>
+      <tr>
+        <td><%= feature['id'] %></td>
+        <td><%= feature['name'] %></td>
+        <td><%= feature['active'] %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
