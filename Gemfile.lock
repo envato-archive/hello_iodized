@@ -1,14 +1,18 @@
 GIT
   remote: https://github.com/envato/iodized2_ruby_client
-  revision: 540459f0bc0f3258536ebfc8ee19eafc4cf6a114
+  revision: bb8394f6bcde88c7e44bc7444aa796528de53082
   branch: master
   specs:
     iodized2_ruby_client (0.1.0)
-      websocket-driver
+      faye-websocket
 
 GEM
   remote: https://rubygems.org/
   specs:
+    eventmachine (1.2.7)
+    faye-websocket (0.10.7)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
     mustermann (1.0.3)
     rack (2.0.7)
     rack-protection (2.0.5)
