@@ -14,7 +14,6 @@ GEM
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
     mustermann (1.0.3)
-    puma (3.12.1)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
@@ -33,7 +32,6 @@ PLATFORMS
 
 DEPENDENCIES
   iodized2_ruby_client!
-  puma
   sinatra
 
 BUNDLED WITH
