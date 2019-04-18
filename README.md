@@ -1,6 +1,12 @@
 # Hello Iodized
 
-Sample application that uses Iodized2 as a source of feature flags.
+Sample application that uses [Iodized2](http://github.com/envato/iodized2/)
+(through [iodized2_ruby_client](https://github.com/envato/iodized2_ruby_client))
+as a source of feature flags.
+
+## Trello board
+
+[trello.com/b/Uy4gXhNQ/iodized2](https://trello.com/b/Uy4gXhNQ/iodized2)
 
 ## Usage
 
