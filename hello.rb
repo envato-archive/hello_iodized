@@ -7,7 +7,10 @@ iodized_secret = ENV.fetch("IODIZED_SECRET", "secret")
 iodized = Iodized2RubyClient.new(iodized_url, iodized_key, iodized_secret)
 
 get "/" do
-  erb :hello, locals: {awesome_feature: iodized.enabled?('awesome_feature') }
+  erb :hello, locals: {
+    awesome_feature: iodized.enabled?('awesome_feature'),
+    display_credits: iodized.enabled?('display_credits')
+  }
 end
 
 get "/features" do
