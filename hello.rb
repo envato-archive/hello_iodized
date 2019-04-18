@@ -14,5 +14,5 @@ get "/" do
 end
 
 get "/features" do
-  erb :features, locals: { features: iodized.features}
+  erb :features, locals: { features: iodized.features }
 end
